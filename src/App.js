@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Camera } from 'react-feather';
+import { Dribbble } from 'react-feather';
+import { Clock } from 'react-feather';
+import { Anchor } from 'react-feather';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+          <ul>
+              <li>this is a camera <Camera/></li>
+              <li>this is a ball <Dribbble/> </li>
+              <li>this is a clock <Clock/> </li>
+              <li>this is anchor <Anchor/></li>
+          </ul>
     </div>
   );
 }
